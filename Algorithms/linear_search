@@ -1,0 +1,5 @@
+def linear_search(A,n):
+    for i in range(len(A)):
+        if A[i] == n:
+            return True
+    return False
