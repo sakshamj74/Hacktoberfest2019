@@ -5,7 +5,7 @@
 * Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/your-username/hacktoberfest.git
+git clone https://github.com/your-username/Hacktoberfest2019.git
 ```
 
 * Create a branch
