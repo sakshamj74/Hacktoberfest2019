@@ -1,6 +1,6 @@
-
 // summary
 // provide distance and speed, returns time it would take to travel
+// format returned is a string, example 1d 2h 30m
 function CalculateSpeed(milesRec, speedRec) {
     var f = milesRec / speedRec;
     var u = (f % 1) * 60 / 100;
@@ -17,8 +17,8 @@ function CalculateSpeed(milesRec, speedRec) {
 }
 
 // summary
-// provide 2 dates and 2 times, returns the 2 values added up
-// format accepted is a string, example 1d 2h 30m
+// provide 2 time spans and return them added up
+// format accepted and returned is a string, example 1d 2h 30m
 function AddTimes(time1, time2) {
     if (time2 == ' ') {
         time2 = "0:0:0";
